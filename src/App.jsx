@@ -33,6 +33,13 @@ function App() {
       localStorage.setItem("darkmode", "light");
     }
   };
+
+  const handelDownloadCv = () => {
+    const fileUrl =
+      "https://drive.google.com/file/d/1V_m7KDFrwr1YCJXzTwmXyKKBNIAFVEz3/view?usp=drive_link";
+    window.open(fileUrl, "_blank");
+  };
+
   return (
     <>
       <div className="px-20">
@@ -65,7 +72,10 @@ function App() {
                     <img src={light1} className="w-8 h-8 p-1" />
                   )}
                 </button>
-                <button className="font-medium cursor-pointer bg-black rounded-md p-1 dark:bg-white">
+                <button
+                  className="font-medium cursor-pointer bg-black rounded-md p-1 dark:bg-white"
+                  onClick={handelDownloadCv}
+                >
                   <p className="text-white dark:text-dark">Download CV</p>
                 </button>
               </div>
