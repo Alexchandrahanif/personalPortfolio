@@ -10,10 +10,12 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       colors: {
+        primary: "#14b8a6",
+        dark: "#0f172a",
+        secondary: "#94a3b8",
         ungu: "#5D50C6",
         pink: "#F85E9F",
         oren: "#FF5722",
-        dark: "#191825",
         kuning: "#FACD49",
         grey: "#19182580",
         orenmuda: "#FACD4914",
@@ -28,5 +30,9 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    {
+      autoprefixer: {},
+    },
+  ],
 };
