@@ -27,8 +27,12 @@ import postgresql from "./postgresql.svg";
 import reactjs from "./reactjs.svg";
 import tailwindcss from "./tailwindcss.svg";
 import typescript from "./typescript.svg";
+import icon from "./icon.svg";
+import x from "./x.svg";
 
 export {
+  x,
+  icon,
   expressjs,
   git,
   figma,
