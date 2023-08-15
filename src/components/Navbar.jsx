@@ -46,7 +46,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="p-4 border-b border-slate-200 fixed w-full  bg-white  dark:bg-dark">
+    <div className="py-4 px-6 border-b border-slate-200 fixed w-full  bg-white sm:px-12  dark:bg-dark">
       <nav
         className={`w-full h-[36px] sm:px-5 flex justify-center items-center `}
       >
@@ -63,8 +63,8 @@ const Navbar = () => {
               <div className="absolute w-[15%] h-[900px] left-0 top-0  bg-slate-200 dark:bg-white"></div>
               <div className="absolute w-[85%] h-[900px] right-0 top-0 bg-white shadow-lg  dark:bg-black">
                 {/* Logo */}
-                <div className="h-[64px] flex justify-between p-4 items-center w-full border-b-2">
-                  <p className="text-lg font-semibold dark:text-white dark:font-light">
+                <div className="h-[64px] flex justify-between px-4 py-8 items-center w-full border-b-2">
+                  <p className="text-lg font-semibold dark:text-white dark:font-semibold">
                     Logo
                   </p>
                   <div onClick={() => setHamburger(!hamburger)}>

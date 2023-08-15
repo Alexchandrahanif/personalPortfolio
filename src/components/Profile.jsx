@@ -3,11 +3,13 @@ import { email1, email2, github1, titik1, lokasi1 } from "../assets";
 
 const Profile = () => {
   return (
-    <div className="w-full   py-[70px] px-4 dark:bg-dark">
-      <div className=" w-full py-8 px-2 flex flex-col sm:flex-row gap-12">
+    <div className="w-full  py-[70px] px-4 dark:bg-dark">
+      <div className=" w-full py-8 px-2 flex flex-col sm:flex-row-reverse sm:px-12 gap-12">
         {/*  */}
-        <div className="w-full h-[300px] bg-slate-50 flex justify-center items-center">
-          <p>Foto</p>
+        <div className="sm:px-8">
+          <div className="w-full h-[300px] bg-slate-50 flex justify-center items-center sm:w-[500px]">
+            <p>Foto</p>
+          </div>
         </div>
         <div className="w-full   flex flex-col gap-12">
           <div className="flex flex-col gap-2">
