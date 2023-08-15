@@ -55,6 +55,7 @@ const Navbar = () => {
           <div>
             <p className="font-semibold text-lg dark:text-white">Logo</p>
           </div>
+          <div></div>
 
           {/* Bagian 2 */}
           {hamburger ? (
