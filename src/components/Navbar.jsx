@@ -41,7 +41,7 @@ const Navbar = () => {
 
   const handelDownloadCv = () => {
     const fileUrl =
-      "https://drive.google.com/drive/u/0/folders/16twc5T4lhZYh6rvNkjQ-CukhGo6wrXBY";
+      "https://drive.google.com/file/d/1kULfNS3vUi38OhBbOLHUUc6qXMe7SgMx/view?usp=drive_link";
     window.open(fileUrl, "_blank");
   };
 
