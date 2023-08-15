@@ -46,7 +46,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="p-4 border-b border-slate-200 fixed w-full   dark:bg-dark">
+    <div className="p-4 border-b border-slate-200 fixed w-full  bg-white  dark:bg-dark">
       <nav
         className={`w-full h-[36px] sm:px-5 flex justify-center items-center `}
       >
