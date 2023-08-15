@@ -20,7 +20,7 @@ import {
   twitter2,
   tujuan1,
   x,
-  icon2,
+  titik5,
 } from "../assets";
 
 const Navbar = () => {
@@ -122,7 +122,7 @@ const Navbar = () => {
               className="flex sm:hidden"
               onClick={() => setHamburger(!hamburger)}
             >
-              <img src={icon2} alt="" className="w-8 h-8" />
+              <img src={titik5} alt="" className="w-8 h-8" />
             </div>
           )}
 
