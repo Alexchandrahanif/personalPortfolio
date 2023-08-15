@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 import {
-  icon,
   dark1,
   dark2,
   light1,
@@ -21,6 +20,7 @@ import {
   twitter2,
   tujuan1,
   x,
+  icon2,
 } from "../assets";
 
 const Navbar = () => {
@@ -41,19 +41,19 @@ const Navbar = () => {
 
   const handelDownloadCv = () => {
     const fileUrl =
-      "https://drive.google.com/file/d/1V_m7KDFrwr1YCJXzTwmXyKKBNIAFVEz3/view?usp=drive_link";
+      "https://drive.google.com/drive/u/0/folders/16twc5T4lhZYh6rvNkjQ-CukhGo6wrXBY";
     window.open(fileUrl, "_blank");
   };
 
   return (
-    <div className="p-4 border-b border-slate-200 fixed w-full  bg-slate-50 dark:bg-dark">
+    <div className="p-4 border-b border-slate-200 fixed w-full   dark:bg-dark">
       <nav
         className={`w-full h-[36px] sm:px-5 flex justify-center items-center `}
       >
         <div className="w-full flex justify-between items-center">
           {/* Bagian 1 */}
           <div>
-            <p className="font-medium text-lg dark:text-white">logo</p>
+            <p className="font-semibold text-lg dark:text-white">Logo</p>
           </div>
 
           {/* Bagian 2 */}
@@ -72,28 +72,28 @@ const Navbar = () => {
                 </div>
 
                 {/* Bagian menu */}
-                <div className="w-full p-4">
-                  <p className="text-lg font-semibold dark:text-white dark:font-light">
+                <div className="w-full px-4">
+                  <p className=" py-3 text-lg font-normal dark:text-white dark:font-light">
                     Profile
                   </p>
-                  <p className="py-1.5 text-lg font-semibold dark:text-white dark:font-light">
+                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
                     Skill
                   </p>
-                  <p className="py-1.5 text-lg font-semibold dark:text-white dark:font-light">
+                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
                     Work
                   </p>
-                  <p className="py-1.5 text-lg font-semibold dark:text-white dark:font-light">
+                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
                     Contact
                   </p>
                 </div>
 
                 {/* Bagian Switch Theme */}
-                <div className="flex justify-between px-4 items-center">
-                  <p className="text-lg font-semibold dark:text-white dark:font-light">
+                <div className="flex justify-between p-4 items-center">
+                  <p className="text-lg font-normal dark:text-white dark:font-light">
                     Switch Theme
                   </p>
                   <button
-                    className="font-medium cursor-pointer border-[1px] rounded-md border-slate-300 shadow-md"
+                    className="font-medium cursor-pointer  rounded-md border-slate-300 shadow-md"
                     onClick={() => handleDarkMode()}
                   >
                     {isDark ? (
@@ -121,7 +121,7 @@ const Navbar = () => {
               className="flex sm:hidden"
               onClick={() => setHamburger(!hamburger)}
             >
-              <img src={icon} alt="" className="w-8 h-8" />
+              <img src={icon2} alt="" className="w-8 h-8" />
             </div>
           )}
 
@@ -140,7 +140,7 @@ const Navbar = () => {
             </ul>
             <div className="flex w-[180px] justify-between">
               <button
-                className="font-medium cursor-pointer border-[1px] rounded-md border-slate-300 shadow-md"
+                className="font-medium cursor-pointer  rounded-md border-slate-300 shadow-md"
                 onClick={() => handleDarkMode()}
               >
                 {isDark ? (

@@ -27,12 +27,14 @@ import postgresql from "./postgresql.svg";
 import reactjs from "./reactjs.svg";
 import tailwindcss from "./tailwindcss.svg";
 import typescript from "./typescript.svg";
-import icon from "./icon.svg";
+import icon2 from "./icon2.svg";
+import titik1 from "./titik1.svg";
 import x from "./x.svg";
 
 export {
   x,
-  icon,
+  icon2,
+  titik1,
   expressjs,
   git,
   figma,
