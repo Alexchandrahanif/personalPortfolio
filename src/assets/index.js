@@ -24,7 +24,7 @@ import mongo from "./mongo.svg";
 import nextjs from "./nextjs.svg";
 import nodejs from "./nodejs.svg";
 import postgresql from "./postgresql.svg";
-import reactjs from "./reactjs.svg";
+import rjs from "./rjs.svg";
 import tailwindcss from "./tailwindcss.svg";
 import typescript from "./typescript.svg";
 import titik5 from "./titik5.svg";
@@ -32,6 +32,7 @@ import titik1 from "./titik1.svg";
 import x from "./x.svg";
 
 export {
+  rjs,
   x,
   titik5,
   titik1,
