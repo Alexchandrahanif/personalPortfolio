@@ -24,7 +24,7 @@ const Skill = () => {
           The skills, tools and technologies I am really good at:
         </p>
       </div>
-      <div className="flex flex-wrap gap-10  items-center">
+      <div className="flex flex-wrap gap-10 justify-start  items-center">
         <img src={javascript} alt="javascript" />
         <img src={typescript} alt="typescript" />
         <img src={nodejs} alt="nodejs" />
