@@ -30,8 +30,18 @@ import typescript from "./typescript.svg";
 import titik5 from "./titik5.svg";
 import titik1 from "./titik1.svg";
 import x from "./x.svg";
+import berandacmn from "./berandacmn.png";
+import berandacfi from "./berandacfi.png";
+import logincmn from "./logincmn.png";
+import logincfi from "./logincfi.png";
+import berandacprint from "./berandacprint.png";
 
 export {
+  logincfi,
+  logincmn,
+  berandacfi,
+  berandacmn,
+  berandacprint,
   rjs,
   x,
   titik5,

@@ -3,6 +3,8 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
 import Skill from "./components/Skill";
+import Work from "./components/Work";
+import Exprerience from "./components/Exprerience";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Navbar />
         <Profile />
         <Skill />
+        <Exprerience />
+        <Work />
       </div>
     </>
   );
