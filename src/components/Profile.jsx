@@ -7,7 +7,7 @@ const handleGithub = () => {
 };
 const Profile = () => {
   return (
-    <div className="w-full  pt-[70px] px-4  dark:bg-dark">
+    <div className="w-full  pt-[70px] px-4  dark:bg-dark" id="profile">
       <div className=" w-full py-8 px-2 flex flex-col sm:flex-row-reverse sm:px-12 gap-12">
         {/*  */}
         <div className="sm:px-8">

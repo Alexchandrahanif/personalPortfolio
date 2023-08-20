@@ -63,7 +63,7 @@ const Navbar = () => {
               <div className="absolute w-[15%] h-[900px] left-0 top-0  bg-slate-200 dark:bg-white"></div>
               <div className="absolute w-[85%] h-[900px] right-0 top-0 bg-white shadow-lg  dark:bg-black">
                 {/* Logo */}
-                <div className="h-[64px] flex justify-between px-4 py-8 items-center w-full border-b-2">
+                <div className="h-[64px] flex justify-between px-6 py-8 items-center w-full border-b-2">
                   <p className="text-lg font-semibold dark:text-white dark:font-semibold">
                     Logo
                   </p>
@@ -81,7 +81,10 @@ const Navbar = () => {
                     Skill
                   </p>
                   <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
-                    Work
+                    Experience
+                  </p>
+                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
+                    Project
                   </p>
                   <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
                     Contact
@@ -128,15 +131,22 @@ const Navbar = () => {
 
           {/* Bagian 3 */}
           <div className="hidden gap-10 sm:flex">
-            <ul className="flex items-center gap-5 w-[350px] justify-evenly">
+            <ul className="flex items-center gap-5 w-[450px] justify-evenly">
               <li className="font-medium cursor-pointer dark:text-white">
-                About
+                <a href="profile"></a>
+                Profile
+              </li>
+              <li className="font-medium cursor-pointer dark:text-white">
+                Skill
               </li>
               <li className="font-medium cursor-pointer dark:text-white">
                 Experience
               </li>
               <li className="font-medium cursor-pointer dark:text-white">
                 Project
+              </li>
+              <li className="font-medium cursor-pointer dark:text-white">
+                Contact
               </li>
             </ul>
             <div className="flex w-[180px] justify-between">
