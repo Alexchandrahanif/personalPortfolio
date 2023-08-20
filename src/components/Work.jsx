@@ -70,7 +70,7 @@ const Work = () => {
               {/* </a> */}
             </p>
             <p className="mb-3">
-              designing backend systems for warehouse needs and taking care of
+              Designing backend systems for warehouse needs and taking care of
               vendor needs and printing machines.
             </p>
             <div className="flex flex-wrap gap-x-3">
@@ -107,7 +107,7 @@ const Work = () => {
               {/* </a> */}
             </p>
             <p className="mb-3">
-              designing product information system backends, prices, and other
+              Designing product information system backends, prices, and other
               details, to make it easier for potential customers to see product
               details and prices offered and to be able to communicate directly
               with customer service.
