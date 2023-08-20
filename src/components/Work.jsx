@@ -31,9 +31,9 @@ const Work = () => {
               </a>
             </p>
             <p className="mb-3">
-              system designed to manage the company's internal data, as well as
-              record company financial data in an integrated manner with the
-              Jurnal application from Mekari as well.
+              Designed backend systems to manage the company's internal data, as
+              well as record company financial data in an integrated manner with
+              the Jurnal application from Mekari as well.
             </p>
             <div className="flex flex-wrap gap-x-3">
               <Kapsul isi="Node.js" />
