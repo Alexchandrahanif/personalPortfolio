@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <div className="w-full flex justify-center items-center gap-1 dark:bg-dark dark:text-textDark2 py-3">
       <svg
-        class="dark:text-white"
         fill="#000000"
         height="20px"
         width="20px"

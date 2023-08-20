@@ -33,7 +33,7 @@ const Contact = () => {
             <a
               href="https://www.instagram.com/alexchandrahanif/?hl=id"
               target="_blank"
-              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
             >
               <svg
                 width="20px"
@@ -50,7 +50,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/alex-chandra-hanif-aa9955236/"
               target="_blank"
-              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
             >
               <svg
                 width="20px"
@@ -67,7 +67,7 @@ const Contact = () => {
             <a
               href="https://github.com/Alexchandrahanif"
               target="_blank"
-              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
             >
               <svg
                 width="20px"
@@ -84,7 +84,7 @@ const Contact = () => {
             <a
               href="https://gitlab.com/alexchandra1998"
               target="_blank"
-              class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:bg-cardDark hover:text-white"
             >
               <svg
                 width="20px"
