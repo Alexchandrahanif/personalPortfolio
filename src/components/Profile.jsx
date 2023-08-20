@@ -17,10 +17,10 @@ const Profile = () => {
         </div>
         <div className="w-full   flex flex-col gap-12">
           <div className="flex flex-col gap-2">
-            <p className="text-3xl font-poppins font-semibold dark:text-white">
+            <p className="text-3xl font-poppins font-semibold dark:text-textDark2 sm:text-4xl">
               Hi, I'm Alex 👋
             </p>
-            <p className="text-slate-800 text-sm dark:text-white">
+            <p className="text-slate-800 text-sm dark:text-textDark2 sm:text-lg">
               I'm a Fullstack JavaScript Developer with a specialization in
               backend development, complemented by frontend proficiency. Excels
               in building robust server-side applications, designing efficient
@@ -31,11 +31,13 @@ const Profile = () => {
           <div className="flex flex-col gap-1">
             <div className="flex gap-1">
               <img src={lokasi1} alt="" />
-              <p className="text-sm dark:text-white">Jakarta, Indonesia</p>
+              <p className="text-sm dark:text-textDark2 sm:text-lg">
+                Jakarta, Indonesia
+              </p>
             </div>
             <div className="flex gap-1">
               <img src={titik1} alt="" />
-              <p className="text-sm dark:text-white">
+              <p className="text-sm dark:text-textDark2 sm:text-lg">
                 Available for New Project
               </p>
             </div>

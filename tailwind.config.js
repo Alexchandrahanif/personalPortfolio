@@ -19,9 +19,11 @@ module.exports = {
         kuning: "#FACD49",
         grey: "#19182580",
         orenmuda: "#FACD4914",
+        textDark2: "#D1D5DB",
         textDark: "#D1D5DB",
         bgLigth: "#E5E7EB",
         bgDark: "#374151",
+        cardDark: "#1F2937",
       },
     },
     screens: {

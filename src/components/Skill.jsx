@@ -20,7 +20,7 @@ const Skill = () => {
     <div className="w-full py-16 px-4 flex flex-col gap-6 dark:bg-dark">
       <div className="flex flex-col justify-center items-center">
         <Kapsul isi="Skills" />
-        <p className="text-slate-500 text-center">
+        <p className="text-slate-500 text-center dark:text-textDark sm:text-lg">
           The skills, tools and technologies I am really good at:
         </p>
       </div>
