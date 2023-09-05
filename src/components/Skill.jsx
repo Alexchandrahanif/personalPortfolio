@@ -17,7 +17,10 @@ import Kapsul from "./Kapsul";
 
 const Skill = () => {
   return (
-    <div className="w-full py-16 px-4 flex flex-col gap-6 dark:bg-dark">
+    <div
+      id="skill"
+      className="w-full py-16 px-4 flex flex-col gap-6 dark:bg-dark"
+    >
       <div className="flex flex-col justify-center items-center">
         <Kapsul isi="Skills" />
         <p className="text-slate-500 text-center dark:text-textDark sm:text-lg">

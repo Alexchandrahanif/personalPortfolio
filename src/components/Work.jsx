@@ -4,7 +4,10 @@ import Kapsul from "./Kapsul";
 
 const Work = () => {
   return (
-    <div className="w-full py-16 px-4 flex flex-col gap-6  dark:bg-dark sm:px-[96px] ">
+    <div
+      id="work"
+      className="w-full py-16 px-4 flex flex-col gap-6  dark:bg-dark sm:px-[96px] "
+    >
       {/* Title */}
       <div className="w-full flex flex-col justify-center items-center">
         <Kapsul isi="Work" />

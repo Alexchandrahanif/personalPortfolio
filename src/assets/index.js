@@ -36,8 +36,10 @@ import logincmn from "./logincmn.png";
 import logincfi from "./logincfi.png";
 import berandacprint from "./berandacprint.png";
 import logo from "./logo.png";
+import alex from "./alex.jpg";
 
 export {
+  alex,
   logo,
   logincfi,
   logincmn,

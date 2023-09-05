@@ -77,20 +77,35 @@ const Navbar = () => {
 
                 {/* Bagian menu */}
                 <div className="w-full px-4">
-                  <p className=" py-3 text-lg font-normal dark:text-white dark:font-light">
-                    Profile
+                  <p
+                    onClick={() => setHamburger(!hamburger)}
+                    className=" py-3 text-lg font-normal dark:text-white dark:font-light"
+                  >
+                    <a href="#profile">Profile</a>
                   </p>
-                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
-                    Skill
+                  <p
+                    onClick={() => setHamburger(!hamburger)}
+                    className="py-3 text-lg font-normal dark:text-white dark:font-light"
+                  >
+                    <a href="#skill">Skill</a>
                   </p>
-                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
-                    Experience
+                  <p
+                    onClick={() => setHamburger(!hamburger)}
+                    className="py-3 text-lg font-normal dark:text-white dark:font-light"
+                  >
+                    <a href="#experience">Experience</a>
                   </p>
-                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
-                    Project
+                  <p
+                    onClick={() => setHamburger(!hamburger)}
+                    className="py-3 text-lg font-normal dark:text-white dark:font-light"
+                  >
+                    <a href="#work">Work</a>
                   </p>
-                  <p className="py-3 text-lg font-normal dark:text-white dark:font-light">
-                    Contact
+                  <p
+                    onClick={() => setHamburger(!hamburger)}
+                    className="py-3 text-lg font-normal dark:text-white dark:font-light"
+                  >
+                    <a href="#contact">Contact</a>
                   </p>
                 </div>
 
@@ -136,20 +151,19 @@ const Navbar = () => {
           <div className="hidden gap-10 sm:flex">
             <ul className="flex items-center gap-5 w-[450px] justify-evenly">
               <li className="font-medium cursor-pointer dark:text-white">
-                <a href="profile"></a>
-                Profile
+                <a href="#profile">Profile</a>
               </li>
               <li className="font-medium cursor-pointer dark:text-white">
-                Skill
+                <a href="#skill">Skill</a>
               </li>
               <li className="font-medium cursor-pointer dark:text-white">
-                Experience
+                <a href="#experience">Experience</a>
               </li>
               <li className="font-medium cursor-pointer dark:text-white">
-                Project
+                <a href="#work">Work</a>
               </li>
               <li className="font-medium cursor-pointer dark:text-white">
-                Contact
+                <a href="#contact">Contact</a>
               </li>
             </ul>
             <div className="flex w-[180px] justify-between">

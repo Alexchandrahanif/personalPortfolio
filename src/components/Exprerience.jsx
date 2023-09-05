@@ -3,7 +3,10 @@ import Kapsul from "./Kapsul";
 
 const Exprerience = () => {
   return (
-    <div className="w-full py-16 px-4 flex flex-col gap-6 bg-slate-50 dark:bg-dark sm:px-[80px] ">
+    <div
+      id="experience"
+      className="w-full py-16 px-4 flex flex-col gap-6 bg-slate-50 dark:bg-dark sm:px-[80px] "
+    >
       {/* Title */}
       <div className="w-full flex flex-col justify-center items-center">
         <Kapsul isi="Experience" />

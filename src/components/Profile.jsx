@@ -1,5 +1,5 @@
 import React from "react";
-import { email1, email2, github1, titik1, lokasi1 } from "../assets";
+import { email1, email2, github1, titik1, lokasi1, alex } from "../assets";
 
 const handleGithub = () => {
   const fileUrl = "https://github.com/Alexchandrahanif";
@@ -11,8 +11,13 @@ const Profile = () => {
       <div className=" w-full py-8 px-2 flex flex-col sm:flex-row-reverse sm:px-12 gap-12">
         {/*  */}
         <div className="sm:px-8">
-          <div className="w-full h-[300px] bg-slate-50 flex justify-center items-center sm:w-[500px]">
-            <p>Foto</p>
+          <div className="w-full h-[300px] flex justify-center items-center sm:w-[500px] ">
+            <img
+              src={alex}
+              alt=""
+              class="object-cover"
+              className="w-[300px] h-[300px] rounded-lg"
+            />
           </div>
         </div>
         <div className="w-full   flex flex-col gap-12">

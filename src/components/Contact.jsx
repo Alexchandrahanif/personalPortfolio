@@ -4,7 +4,10 @@ import { email1, email2, telepon1, telepon2 } from "../assets";
 
 const Contact = () => {
   return (
-    <div className="w-full py-16 px-4 flex flex-col gap-6  dark:bg-dark sm:px-[96px] ">
+    <div
+      id="contact"
+      className="w-full py-16 px-4 flex flex-col gap-6  dark:bg-dark sm:px-[96px] "
+    >
       {/* Title */}
       <div className="w-full flex flex-col justify-center items-center">
         <Kapsul isi="Contact" />
