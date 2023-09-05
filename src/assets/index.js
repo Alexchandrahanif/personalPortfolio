@@ -35,8 +35,10 @@ import berandacfi from "./berandacfi.png";
 import logincmn from "./logincmn.png";
 import logincfi from "./logincfi.png";
 import berandacprint from "./berandacprint.png";
+import logo from "./logo.png";
 
 export {
+  logo,
   logincfi,
   logincmn,
   berandacfi,

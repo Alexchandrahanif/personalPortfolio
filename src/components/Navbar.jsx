@@ -21,6 +21,7 @@ import {
   tujuan1,
   x,
   titik5,
+  logo,
 } from "../assets";
 
 const Navbar = () => {
@@ -53,7 +54,9 @@ const Navbar = () => {
         <div className="w-full flex justify-between items-center">
           {/* Bagian 1 */}
           <div>
-            <p className="font-semibold text-lg dark:text-white">Logo</p>
+            <p className="font-semibold text-lg dark:text-white">
+              <img src={logo} alt="logo" className="h-10 w-10" />
+            </p>
           </div>
           <div></div>
 
@@ -65,7 +68,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="h-[64px] flex justify-between px-6 py-8 items-center w-full border-b-2">
                   <p className="text-lg font-semibold dark:text-white dark:font-semibold">
-                    Logo
+                    <img src={logo} alt="logo" className="h-10 w-10" />
                   </p>
                   <div onClick={() => setHamburger(!hamburger)}>
                     <img src={x} alt="x" className="h-10 w-10" />
