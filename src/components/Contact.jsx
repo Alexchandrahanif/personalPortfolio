@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="flex w-full justify-center gap-3 items-center mb-5">
           <img src={telepon2} alt="" />
           <p className="text-lg font-semibold dark:text-textDark2 sm:text-2xl">
-            0823-8819-7372
+            0823-8819-****
           </p>
         </div>
         {/* Contak Lainnya */}

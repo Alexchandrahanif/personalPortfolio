@@ -27,9 +27,9 @@ const Exprerience = () => {
           <div className="order-3 sm:order-2 sm:text-lg">
             <p className="text-lg font-semibold mb-3">Backend Developer</p>
             <ul className="list-disc list-inside">
-              <li>designing backend the company's internal system</li>
-              <li>designing backend subsidiary systems</li>
-              <li>designing backend systems introduce products to consumers</li>
+              <li>Designing backend the company's internal system</li>
+              <li>Designing backend subsidiary systems</li>
+              <li>Designing backend systems introduce products to consumers</li>
             </ul>
           </div>
         </div>
