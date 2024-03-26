@@ -42,7 +42,7 @@ const Navbar = () => {
 
   const handelDownloadCv = () => {
     const fileUrl =
-      "https://drive.google.com/file/d/1kULfNS3vUi38OhBbOLHUUc6qXMe7SgMx/view?usp=drive_link";
+      "https://drive.google.com/file/d/16ydEZMMz7oc3gEfU9n5I6M2ZW9WttLuq/view?usp=sharing";
     window.open(fileUrl, "_blank");
   };
 
